@@ -12,7 +12,7 @@ function checkInputs() {
 
     if(numberValue === '') {
         console.log('User entered nothing');
-        setErrorFor(number, 'Please enter a number');
+        setErrorFor(number, 'Number cannot be blank');
     } else if (!(numberValue > 10)) {
         console.log('User entered number smaller than 10 (' + numberValue + ')');
         setErrorFor(number, 'Number must be greater than 10');

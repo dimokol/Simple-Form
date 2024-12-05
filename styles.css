@@ -20,9 +20,9 @@ body {
 }
 
 .formBox {
-    width: 250px;
+    width: 370px;
     max-width: 100%;
-    height: 180px;
+    height: 250px;
     margin: 0 auto;
     border: 1px solid var(--clr-dark);
     border-radius: 10px;
@@ -31,20 +31,20 @@ body {
 }
 
 .formHeader {
-    padding: 3px 25px;
+    padding: 0px 40px;
     font-family: "Ascender Serif W02 Regular";
     font-weight: 100;
-    font-size: 24px;
+    font-size: 40px;
     color: #1b76d2; /* Color found using photoshop's eyedropper tool on the original design */
 }
 
 .form {
-    padding: 0px 25px;
+    padding: 0px 40px;
 }
 
 .formBody {
-    margin-bottom: 10px;
-    padding-bottom: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 30px;
     position: relative;
 }
 
@@ -52,32 +52,32 @@ body {
     display: inline-block;
     margin-bottom: 5px;
     color: #333;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 .formBody input {
     width: 100%;
-    padding: 3px;
+    padding: 5px;
     border: 1px solid #ddd;
-    border-radius: 6px;
+    border-radius: 8px;
     display: block;
-    font-size: 9px;
+    font-size: 14px;
 }
 
 .formBody.success input {
-    border-color: #2ecc71;
+    border: 2px solid #2ecc71;
 }
 
 .formBody.error input {
-    border-color: #e74c3c;
+    border: 2px solid #e74c3c;
 }
 
 .formBody i {
     visibility: hidden;
     position: absolute;
-    top: 27px;
-    right: 5px;
-    font-size: 60%;
+    top: 38px;
+    right: 7px;
+    font-size: 100%;
 }
 
 .formBody.success i.fa-check-circle {
@@ -95,7 +95,7 @@ body {
     position: absolute;
     bottom: 1;
     left: 0;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .formBody.error small {
@@ -109,9 +109,12 @@ body {
     border: 2px solid #1b76d2;
     background-color: #fff;
     display: block;
-    font-size: 10px;
+    font-family: "Arial";
+    font-size: 18px;
     font-weight: 600;
-    border-radius: 6px;
+    border-radius: 10px;
+    margin: -20px 0px;
+    padding: 1px 12px;
     cursor: pointer;
 }
 
